@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sunkissed Stylists</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cookie" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/stylists.css' %}">
+</head>
+
+<body>
+    <div class="heading">
+        <a href="/">
+            <img src="{% static 'img/icon.png' %}" alt="Icon Image" />
+        </a>
+    </div>
+    <div class="employees">
+        <p>Hair Stylists</p>
+        <label>Kacie</label>
+        <a href="/stylists/kacie">
+            <img src="{% static 'img/kacie.jpg' %}" alt="Kacie.jpg" class="owner" />
+        </a>
+        <div class="stylistRow">
+            <label>Cooki</label>
+            <a href="/stylists/cooki">
+                <img src="{% static 'img/cooki.jpg' %}" alt="Cooki.jpg" />
+            </a>
+        </div>
+        <div class="stylistRow">
+            <label>Kimberly</label>
+            <a href="/stylists/kimberly">
+                <img src="{% static 'img/kimberly.jpg' %}" alt="Kimberly.jpg" />
+            </a>
+        </div>
+        <div class="stylistRow">
+            <label>Heather</label>
+            <a href="/stylists/heather">
+                <img src="{% static 'img/Heather.jpg' %}" alt="Heather.jpg" />
+            </a>
+        </div>
+        <div class="stylistRow">
+            <label>Maxine</label>
+            <a href="/stylists/maxine">
+                <img src="{% static 'img/Maxine.jpg' %}" alt="Maxine.jpg" />
+            </a>
+        </div>
+        <p>Assistants</p>
+        <div class="stylistRow">
+            <label>My</label>
+            <a href="/stylists/myHuynh">
+                <img src="{% static 'img/MyHuynh.jpg' %}" alt="MyHuynh.jpg" />
+            </a>
+        </div>
+        <div class="stylistRow">
+            <label>Phuong</label>
+            <a href="/stylists/phuong">
+                <img src="{% static 'img/Phuong.jpg' %}" alt="Phuong.jpg" />
+            </a>
+        </div>
+        <p>MicroBlading Artists</p>
+        <div class="stylistRow">
+            <label>My</label>
+            <a href="/stylists/myPhan">
+                <img src="{% static 'img/myPhan.jpg' %}" alt="my.jpg" />
+            </a>
+        </div>
+        <div class="stylistRow">
+            <label>Han</label>
+            <a href="/stylists/han">
+                <img src="{% static 'img/han.jpg' %}" alt="Han.jpg" />
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
