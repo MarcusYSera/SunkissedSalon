@@ -1,0 +1,48 @@
+body {
+    display: block;
+    text-align: center;
+    font-size: 1.8vw;
+    font-family: Cookie;
+}
+
+p {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.heading img {
+    width: 25%;
+}
+
+.employees {
+    display: inline-block;
+    width: 50%;
+}
+
+.employees img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.employees .owner {
+    margin: auto;
+    display: block;
+    width: 40%;
+}
+
+.stylistRow {
+    display: inline-block;
+    width: 49%;
+}
+
+.stylistRow img {
+    width: 50%;
+}
+
+.stylistRow label {
+    display: block;
+}
