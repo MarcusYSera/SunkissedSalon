@@ -1,0 +1,90 @@
+body {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+.btn{
+    font-size: 1.3vw;
+}
+
+.heading img {
+    width: 25%;
+}
+
+.navigator a {
+    color: black;
+    text-decoration: none;
+    vertical-align: top;
+    font-family: Cookie;
+}
+
+.btn-secondary {
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dropdown-menu {
+    min-width: 7rem;
+}
+
+.dropdown-menu button {
+    display: block;
+}
+
+.body {
+    margin: auto;
+    padding-top: .5%;
+    width: 50%;
+    text-align: center;
+    font-family: Cookie;
+}
+
+.appointment {
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.hours {
+    font-size: 1vw;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons a {
+    display: inline-block;
+    width: 1%;
+}
+
+.fb {
+    width: 100%;
+    display: inline-block;
+}
+
+.insta {
+    width: 100%;
+    display: inline-block;
+}
+
+.yelp {
+    width: 87%;
+    display: inline-block;
+    margin-bottom: 1px;
+}
+
+.address {
+    color: black;
+    text-decoration: none;
+}
+
+.footing {
+    text-align: center;
+    font-size: .8vw;
+}
+
+.footing p {
+    display: inline;
+}
